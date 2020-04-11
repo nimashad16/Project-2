@@ -4,9 +4,9 @@
 
 ### Rule getRule()
 Returns the rule that the Automaton is on
--[](before:) test
--[](after:) test
--[](and later:) implement
+- [](before:) test
+- [](after:) test
+- [](and later:) implement
 
 ### Generation getGeneration(int stepNum)
 Returns the generation number that Automaton is on
