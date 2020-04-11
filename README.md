@@ -1,8 +1,8 @@
 # Project-2
 
-##Automaton
+## Automaton
 
-###Rule getRule()
+### Rule getRule()
 Returns the rule that the Automaton is on
 -[](before:) test
 -[](after:) test
@@ -14,7 +14,7 @@ Returns the generation number that Automaton is on
 -[](after:) test
 -[](and later:) implement
 
-###BoundaryConditions getBoundaryConditions()
+### BoundaryConditions getBoundaryConditions()
 Returns the BoundaryConditions that the Automaton is using
 -[](before:) test
 -[](after:) test
