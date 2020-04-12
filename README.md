@@ -70,8 +70,120 @@ Count the number of times each subrule is applied during the given evolution ste
 - [] (after:) test
 - [] (and later:) implement
 
-###int[][] subruleCounts(Automaton a)
+### int[][] subruleCounts(Automaton a)
 Return the subrule counts for every evolution step
+- [] (before:) test
+- [] (after:) test
+- [] (and later:) implement
+
+## Cell
+
+### Cell getState()
+Return the state of the cell
+- [] (before:) test
+- [] (after:) test
+- [] (and later:) implement
+
+### String toString()
+Return the String format of the cell
+- [] (before:) test
+- [] (after:) test
+- [] (and later:) implement
+
+### Cell getNeighbor(int cellIdx, int offset, Generation gen)
+Returns a cell with a specific index
+- [] (before:) test
+- [] (after:) test
+- [] (and later:) implement
+
+## ElementaryRule
+- [] (before:) test
+- [] (after:) test
+- [] (and later:) implement
+
+### int getNumSubrules()
+Gets the number of subRules that can be used
+- [] (before:) test
+- [] (after:) test
+- [] (and later:) implement
+
+### Cell[] getNeighborhood(int cellIdx, Generation gen gen, BoundaryConditions bc bc)
+- [] (before:) test
+- [] (after:) test
+- [] (and later:) implement
+
+### EvolvedCell evolve(Cell[] neighborhood)
+- [] (before:) test
+- [] (after:) test
+- [] (and later:) implement
+
+### String toString()
+Return a two-line string representation of the rule table, using the characters that represent CellState.OFF and CellState.ON
+- [] (before:) test
+- [] (after:) test
+- [] (and later:) implement
+
+### EvolvedCell int getSubruleNum()
+Gets the subRuleNum
+- [] (before:) test
+- [] (after:) test
+- [] (and later:) implement
+
+## FixedBoundaryConditions
+
+### CellState getLeftState()
+Gets cellstate to the left of cell
+- [] (before:) test
+- [] (after:) test
+- [] (and later:) implement
+
+### CellState getRightState()
+Gets cell state to the right of cell
+- [] (before:) test
+- [] (after:) test
+- [] (and later:) implement
+
+### Cell getNeighbor(int cellIdx, int offset, Generation gen)
+Returns state of all cells around cell
+- [] (before:) test
+- [] (after:) test
+- [] (and later:) implement
+
+## Generation
+### Generation(CellState[] states)
+Construct a Generation of regular Cell objects from an array of CellStates
+- [] (before:) test
+- [] (after:) test
+- [] (and later:) implement
+
+### Generation(Cell[] cells)
+ A reference to an array of Cells
+ - [] (before:) test
+- [] (after:) test
+- [] (and later:) implement
+
+### Generation(String states)
+Construct a Generation of regular Cell objects from a String of characters representing cell states
+- [] (before:) test
+- [] (after:) test
+- [] (and later:) implement
+
+### Cell getCell(int idx)
+ Construct a Generation from an array of Cells.
+- [] (before:) test
+- [] (after:) test
+- [] (and later:) implement
+
+## Rule
+
+### int getRuleNum()
+Return the number of subrules used to determine the next state of a cell from its neighborhood 
+- [] (before:) test
+- [] (after:) test
+- [] (and later:) implement
+
+### Generation evolve(Generation gen,BoundaryConditions bc)
+Apply the rule to a given Generation, subject to the given boundary conditions, to calculate the next Generation
 - [] (before:) test
 - [] (after:) test
 - [] (and later:) implement
