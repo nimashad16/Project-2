@@ -188,5 +188,34 @@ Apply the rule to a given Generation, subject to the given boundary conditions, 
 - [] (after:) test
 - [] (and later:) implement
 
+## TotalistRule
 
+### TotalistRule(int ruleNum)
+If the given integer is not a valid rule number, throw an InvalidRuleNumException
+- [] (before:) test
+- [] (after:) test
+- [] (and later:) implement
 
+### int getNumSubrules()
+Gets number of sub rules which is 6
+- [] (before:) test
+- [] (after:) test
+- [] (and later:) implement
+
+### Cell[] getNeighborhood(int cellIdx, Generation gen gen, BoundaryConditions bc bc) 
+Returns the getter for the neighborhood of the cell
+- [] (before:) test
+- [] (after:) test
+- [] (and later:) implement
+
+### EvolvedCell evolve(Cell[] neighborhood)
+Will evolve the cell
+- [] (before:) test
+- [] (after:) test
+- [] (and later:) implement
+
+### String toString() 
+Return a string representation of the rule table
+- [] (before:) test
+- [] (after:) test
+- [] (and later:) implement
